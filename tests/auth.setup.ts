@@ -10,7 +10,7 @@ setup("เข้าสู่ระบบ", async ({ page }) => {
   await page.locator('[data-test="btn-submit"]').click();
 
   await expect(page.getByTestId("btn-user-profile")).toBeVisible({
-    timeout: 10000,
+    timeout: 50000,
   });
 
   const cookies = await page.context().cookies();

@@ -1,14 +1,1 @@
-{
-  "name": "test-storemate-cancel",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@playwright/test": "^1.62.1",
-    "@types/node": "^26.2.0"
-  }
-}
+{"name":"test-storemate-cancel","version":"1.1.0","private":true,"scripts":{"test":"playwright test","test:headed":"playwright test --headed","test:report":"playwright show-report"},"devDependencies":{"@playwright/test":"^1.62.1","@types/node":"^26.2.0"}}
